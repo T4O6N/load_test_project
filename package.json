@@ -1,0 +1,24 @@
+{
+  "name": "load_test_project",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node resources/src/index.js",
+    "dev": "nodemon resources/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "loadtest": "^8.0.9",
+    "nodemon": "^3.1.7"
+  }
+}
